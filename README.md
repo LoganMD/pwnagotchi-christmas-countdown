@@ -2,7 +2,7 @@
 
 Christmas Countdown Timer for Pwnagotchi
 
-#### Since this is my first pwnagotchi plugin, I used some code from memtemp.
+#### Since this is my first Pwnagotchi plugin, I used some code from memtemp.
 
 ## Installation
 
@@ -18,14 +18,14 @@ Finally, enable it in your config.yml.
 
 ## FAQ
 
-### The app doesnt work!
+### The plugin doesn't work!
 
 Bother me in my [discord server](https://discord.gg/VuhvYRz) (I am Logandev\_)
 
 ### Does it overlap memtemp?
 
-Nope, it moves the christmas countdown over to the side if memtemp is enabled, so it won't overlap.
+Nope, it moves the Christmas countdown over to the side if memtemp is enabled, so it won't overlap.
 
 ## TO-DO
 
-Future-proof it so it works on christmas's above 2019.
+Future-proof it so it works on Christmas(s) above 2019.
