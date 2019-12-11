@@ -1,4 +1,4 @@
-# pwnagotchi-christmas-countdown
+# Pwnagotchi Christmas Countdown
 Christmas Countdown Timer for Pwnagotchi
 #### Since this is my first pwnagotchi plugin, I used some code from memtemp.
 ## Installation
