@@ -7,7 +7,7 @@ In `main` add `custom_plugins: "/custom/plugins/directory"`
 
 After that, add `christmas.py` to that folder.
 Finally, enable it in your config.yml.  
-`christmas:  
+`christmas:<br/>
 enabled: true`
 ## FAQ
 ### The app doesnt work!
