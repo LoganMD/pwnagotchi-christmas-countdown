@@ -14,3 +14,5 @@ enabled: true`
 Bother me in my [discord server](https://discord.gg/VuhvYRz) (I am Logandev_)
 ### Does it overlap memtemp?
 Nope, it moves the christmas countdown over to the side if memtemp is enabled, so it won't overlap.
+## TO-DO
+Future-proof it so it works on christmas's above 2019.
