@@ -11,7 +11,7 @@ import yaml
 
 class Christmas(plugins.Plugin):
     __author__ = 'https://github.com/LoganMD'
-    __version__ = '1.1.0'
+    __version__ = '1.2.0'
     __license__ = 'GPL3'
     __description__ = 'Christmas Countdown timer for pwnagotchi'
 
@@ -40,10 +40,15 @@ class Christmas(plugins.Plugin):
         if now > christmas:
             christmas = christmas.replace(year=now.year + 1)
 
-        days = (christmas - now).days
-        hours = math.floor((christmas - now).seconds / 3600)
+        difference = (christmas - now)
+
+        days = difference.days
+        hours = difference.seconds // 3600
+        minutes = (difference.seconds % 3600) // 60
 
         if now.month == 12 and now.day == 25:
             ui.set('christmas', "merry\nchristmas!")
+        elif days == 0:
+            ui.set('christmas', "christmas\n%dH %dM" % (hours, minutes))
         else:
-            ui.set('christmas', "christmas\n%dd %dh" % (days, hours))
+            ui.set('christmas', "christmas\n%dD %dH" % (days, hours))
